@@ -4,8 +4,6 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-const server = http.createServer(requestListener);
-
 const server = app.listen(PORT, () => {
     console.log(`Server is running on ${PORT}`);
 });
